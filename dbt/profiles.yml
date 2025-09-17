@@ -1,0 +1,6 @@
+ecommerce_duckdb:
+  outputs:
+    dev:
+      type: duckdb
+      path: warehouse/ecom.duckdb
+  target: dev

@@ -1,0 +1,10 @@
+name: 'ecommerce_dbt'
+version: '1.0'
+config-version: 2
+profile: 'ecommerce_duckdb'
+model-paths: ['models']
+target-path: 'target'
+clean-targets: ['target']
+models:
+  ecommerce_dbt:
+    +materialized: table
